@@ -123,7 +123,7 @@ div .social--links a {
   padding-top: 5rem;
 }
 
-p {
+.aboutp {
   color: #4D4D4D;
   text-align: center;
   line-height: 20px;
@@ -137,10 +137,57 @@ p {
 
 .skills {
   padding-left: 6rem;
-  display: grid;
+  width: 1440px;
+  height: 698px;
+  background: #FFFFFF;
 }
 
-.mySkills {
+.mySkill {
+  margin-top: 4rem;
+}
+
+.stack {
+  margin-top: 3rem;
   display: grid;
-  flex-direction: row-reverse;
+  grid-template-columns: auto auto auto auto;
+}
+
+.skillp {
+  width: 465px;
+  height: 28px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4D4D4D;
+}
+
+.logo {
+  margin-top: 2rem;
+  width: 60px;
+  height: 55px;
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #2351DC;
+}
+
+.name {
+  margin-right: 25rem;
+  margin-top: 2rem;
+  width: 427px;
+  height: 41px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #000000;
 }

@@ -8,34 +8,36 @@ const Skill = () => {
   return (
     <div className='mySkill'>
         <h1>My Skills</h1>
-        <p>Here are a few skills I possess</p>
-        <span>
-            <img src={Html} alt='html' />
-        </span>
-        <div>
-            <label for='file'>HTML</label> <br></br>
-            <progress id="file" value="32" max="100"> 32% </progress>
-        </div>
-        <span>
-            <img src={Js} alt='js' />
-        </span>
-        <div>
-            <label for='file'>JAVASCRIPT</label> <br></br>
-            <progress id="file" value="50" max="100"> 50% </progress>
-        </div>
-        <span>
-            <img src={Windows} alt='windows' />
-        </span>
-        <div>
-            <label for='file'>WINDOWS</label> <br></br>
-            <progress id="file" value="32" max="100"> 32% </progress>
-        </div>
-        <span>
-            <img src={Wordpress} alt='wordpress' />
-        </span>
-        <div>
-            <label for='file'>WORDPRESS</label> <br></br>
-            <progress id="file" value="32" max="100"> 32% </progress>
+        <p className='skillp'>Here are a few skills I possess</p>
+        <div className='stack'>
+            <span className='logo'>
+                <img src={Html} alt='html' />
+            </span>
+            <div className='name'>
+                <label for='file'>HTML</label> <br></br>
+                <progress id="file" value="98" max="100"> 32% </progress>
+            </div>
+            <span className='logo'>
+                <img src={Js} alt='js' />
+            </span>
+            <div className='name'>
+                <label for='file'>JAVASCRIPT</label> <br></br>
+                <progress id="file" value="50" max="100"> 50% </progress>
+            </div>
+            <span className='logo'>
+                <img src={Windows} alt='windows' />
+            </span>
+            <div className='name'>
+                <label for='file'>WINDOWS</label> <br></br>
+                <progress id="file" value="98" max="100"> 32% </progress>
+            </div>
+            <span className='logo'>
+                <img src={Wordpress} alt='wordpress' />
+            </span>
+            <div className='name'>
+                <label for='file'>WORDPRESS</label> <br></br>
+                <progress id="file" value="80" max="100"> 32% </progress>
+            </div>
         </div>
     </div>
   )
