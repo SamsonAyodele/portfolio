@@ -1,19 +1,26 @@
 import React from 'react';
+import Intro from './Intro';
 import Nav from './Nav'
-import Socials from './Socials'
+import About from './About';
+import Skill from './Skill';
+
 
 const Header = () => {
     return (
+        <>
         <div className='main--header'>
-            <nav>
-             <h1 className='header'>Samson Ayodele</h1>
              <span className='nav--links'>
                 <Nav />
-                <Socials />
              </span>
-             
-            </nav>
+            <Intro />
         </div> 
+         <div className='abt'>
+            <About />
+         </div>
+         <div className='skills'>
+            <Skill />
+         </div>
+     </>
     )
 }
 

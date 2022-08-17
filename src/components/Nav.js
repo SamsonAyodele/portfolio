@@ -1,15 +1,22 @@
 import React from 'react'
+import Socials from './Socials'
 
 const Nav = () => {
   return (
-    <div>
+    <nav>
+        <h1 className='header'>Samson Ayodele</h1>
         <ul>
-            <li>About Me</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
+            <a href='#About'><li>About Me</li></a>
+            <a href='#Services'><li>Services</li></a>
+            <a href='#Projects'><li>Projects</li></a>
+            <a href='#Contact'><li>Contact Me</li></a>
         </ul>
-    </div>
+        <div className='"nav--soc"'>
+          <Socials />
+        </div>
+        
+    </nav>
+  
   )
 }
 

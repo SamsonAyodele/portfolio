@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  align-items: center;
+}
+
+.main--header {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 750px;
+  padding-left: 6rem;
+  margin-top: 2rem;
+}
+
+.header {
+  font: 'Manrope';
+  font-weight: 500;
+  font-size: 3.1rem;
+  /* line-height: 40px; */
+  letter-spacing: -1%;
+}
+
+.nav--links {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-right: 25rem;
+}
+
+li  {
+ color: #000000;
+ margin: 0.5rem;
+ list-style-type: none;
+ font: 'Manrope';
+ font-weight: 400;
+ font-size: 1.5rem;
+ font-style: normal;
+ letter-spacing: -1%;
+ line-height: 20px;
+}
+
+.section1 {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 7rem;
+  /* padding: 0rem 1rem 2rem 0; */
+}
+
+h6 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #2351DC;
+}
+
+h3 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #2351DC;
+}
+
+h1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.image {
+  position: absolute;
+  display: flex;
+  width: 620px;
+  height: 618px;
+  left: 63rem;
+  top: 120px;
+  background: #D3DCF8;
+}
+
+div .social--links a {
+  border: 1px solid #2351dc;
+  border-radius: 50%;
+  padding: 0.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0.2rem;
+}
+
+.abt {
+  display: flex;
+  justify-content: center;
+  height: 434px;
+  background: #F6F8FE;
+}
+
+.about {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+p {
+  color: #4D4D4D;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Manrope';
+  width: 465px;
+  height: 64px;
+}
+
+.skills {
+  padding-left: 6rem;
+  display: grid;
+}
+
+.mySkills {
+  display: grid;
+  flex-direction: row-reverse;
+}
