@@ -200,27 +200,22 @@ div .social--links a {
 
 .services {
   margin-top: 5rem;
-  display: grid;
-  grid-template-columns: 3fr ;
   justify-content: space-between;
 }
 
-img {
-  
-}
-
-h2 {
-
+.serviced {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  background: #fbfcfe;
 }
 
 p {
   width: 271px;
-  /* height: 28px; */
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  /* line-height: 28px; */
+  line-height: 28px;
   letter-spacing: -0.01em;
   color: #000000;
 }

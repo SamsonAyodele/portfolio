@@ -31,6 +31,7 @@ const Header = () => {
          </div>
          <div className='mainService'>
             <Service />
+            <div className='serviced'>
             <ServiceRendered Pics={Presentation} 
             Title={'Training'} 
             SubTitle={'I offer instructor-led training in a way that fits with the way you work.'} 
@@ -59,6 +60,8 @@ const Header = () => {
             Title={'Technical Writing'}
             SubTitle={'I help channel and transfer information between two or more parties, through any medium that best facilitates the transfer and comprehension of the information.'}
             />
+            </div>
+            
          </div>
      </>
     )
