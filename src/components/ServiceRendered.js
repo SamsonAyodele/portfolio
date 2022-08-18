@@ -5,7 +5,7 @@ const ServiceRendered = ({Pics, Title, SubTitle}) => {
     <div className='services'>
          <img src={Pics} alt='logo' />
          <h2>{Title}</h2>
-         <p>{SubTitle}</p>
+         <p className='sub'>{SubTitle}</p>
     </div>
   )
 }

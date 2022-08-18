@@ -11,7 +11,9 @@ import Responsive from '../assets/responsive.svg'
 import Database from '../assets/server 1.svg'
 import Vector from '../assets/checklist 1.svg'
 import Dev from '../assets/cloud 1.png'
-import Writing from '../assets/notes 1.png'
+// import Writing from '../assets/notes 1.png'
+import Projects from './Projects'
+import Milestone from './Milestone';
 
 
 const Header = () => {
@@ -56,13 +58,39 @@ const Header = () => {
             Title={'Sass Development'}
             SubTitle={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus.'}
             />
-            <ServiceRendered Pics={Writing}
+            {/* <ServiceRendered Pics={Writing}
             Title={'Technical Writing'}
             SubTitle={'I help channel and transfer information between two or more parties, through any medium that best facilitates the transfer and comprehension of the information.'}
-            />
+            /> */}
             </div>
-            
          </div>
+         <div className='projectDone'>
+            <Projects />
+            <div className='milestones'>
+               <div className='milestone1'>
+                  <Milestone ProjectTitle={'Digital Business Card'}
+                  Stack={'ReactJs'}
+                  Description={'https://github.com/SamsonAyodele/Digital-Business-Card'}
+                  Name={'Digital'}
+                  />
+               </div>
+               <div className='milestone2'>
+               <Milestone ProjectTitle={'Tenzie Game'}
+                  Stack={'ReactJs'}
+                  Description={'https://github.com/SamsonAyodele/TenzieReactGame'}
+                  Name={'Tenzie Game'}
+                  />
+               </div>
+               <div className='milestone3'>
+               <Milestone ProjectTitle={'Pig Game'}
+                  Stack={'JavaScript'}
+                  Description={'https://github.com/SamsonAyodele/PigGame'}
+                  Name={'Pig Game'}
+                  />
+               </div>  
+            </div>
+         </div>
+         
      </>
     )
 }
