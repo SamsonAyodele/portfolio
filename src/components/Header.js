@@ -15,6 +15,7 @@ import Dev from '../assets/cloud 1.png'
 import Projects from './Projects'
 import Milestone from './Milestone';
 import GetInTouch from './GetInTouch';
+import Footer from './Footer';
 
 
 const Header = () => {
@@ -91,7 +92,12 @@ const Header = () => {
                </div>  
             </div>
          </div>
-         <GetInTouch />
+         <div>
+          <GetInTouch />
+         </div>
+         <div className='footer'>
+            <Footer />
+         </div>
      </>
     )
 }

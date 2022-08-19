@@ -307,7 +307,7 @@ button {
 }
 
 p:first-child {
-  margin-left: 6rem;
+  
 }
 
 .needService {
@@ -317,3 +317,23 @@ p:first-child {
   background-position: cover;
   padding: 3rem;
 }
+
+.footer {
+  padding-top: 2rem;
+  text-align:center;
+  width: 100vw;
+  height: 300px;
+  background: #07102C;
+  color: #fff;
+}
+
+.footerhead {
+  color: #FFFFFF;
+}
+
+.foot {
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+}
+
