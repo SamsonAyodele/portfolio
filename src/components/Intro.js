@@ -7,7 +7,7 @@ const Intro = () => {
     <section className='section1'>
     <div>
         <h6>HI THERE</h6>
-        <h3>I AM SAMSON AYODELE</h3>
+        <h3>I'M SAMSON AYODELE</h3>
         <h1>A Top-notch FrontEnd Developer,<br></br>Writer and Mentor.</h1>
         <span className="soc">
           <Socials  />

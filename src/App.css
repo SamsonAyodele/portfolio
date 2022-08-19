@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-body {
+ body {
   padding: 0;
   margin: 0;
-}
+} 
 
-.App {
+/* .App {
   align-items: center;
-}
+} */
 
 .main--header {
   background-color: #ffffff;
@@ -223,6 +223,7 @@ div .social--links a {
 .projectDone {
   padding-left: 6rem;
   background: #FBFCFE;
+  height: 25rem;
 }
 
 .milestones {
@@ -248,11 +249,71 @@ div .social--links a {
   padding-left: 1rem;
 }
 
-a {
+a.mile {
   color: #ffffff;
   text-decoration: none;
   border: 2px solid yellow;
   border-radius: 2rem;
   padding: 0.3rem;
   cursor: pointer;
+}
+
+label:hover {
+  cursor: pointer;
+  color:chartreuse;
+  margin: 1px;
+}
+
+.editForm {
+  margin: 1em 1em 0 0;
+}
+
+.editForm input {
+  width: 50%;
+  height: 2em;
+  border: 0.1em solid #dbdbdb;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+button {
+  cursor: pointer;
+  padding: unset;
+  border: unset;
+  background: unset;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.connect {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10rem;
+  margin-top: 2rem;
+  background: #FFFFFF;
+  width: 1440px;
+  height: 623px;
+}
+
+.getintouch {
+  width: 400px;
+  margin-left: 6rem;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+p:first-child {
+  margin-left: 6rem;
+}
+
+.needService {
+  width: 650px;
+  height: 623px;
+  background: #1C41B0;
+  background-position: cover;
+  padding: 3rem;
 }

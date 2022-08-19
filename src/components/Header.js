@@ -14,6 +14,7 @@ import Dev from '../assets/cloud 1.png'
 // import Writing from '../assets/notes 1.png'
 import Projects from './Projects'
 import Milestone from './Milestone';
+import GetInTouch from './GetInTouch';
 
 
 const Header = () => {
@@ -90,7 +91,7 @@ const Header = () => {
                </div>  
             </div>
          </div>
-         
+         <GetInTouch />
      </>
     )
 }

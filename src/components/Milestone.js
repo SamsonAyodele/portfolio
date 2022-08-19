@@ -5,7 +5,7 @@ const Milestone = ({ ProjectTitle, Stack, Description, Name }) => {
     <div className='milestone'>
         <h2>{ProjectTitle}</h2>
         <p>{Stack}</p>
-        <a href={Description} rel='noreferrer' target='_blank'> 
+        <a  className='mile' href={Description} rel='noreferrer' target='_blank'> 
             <label>{Name}</label>
         </a>
     </div>
