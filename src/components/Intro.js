@@ -1,6 +1,6 @@
 import React from 'react'
 import Socials from './Socials'
-import Image from '../assets/MyPics1.jpeg'
+// import Image from '../assets/MyPics1.jpeg'
 
 const Intro = () => {
   return (
@@ -13,9 +13,9 @@ const Intro = () => {
           <Socials  />
         </span>
     </div>
-      <div className='image'>
+      {/* <div className='image'>
         <img src={Image} alt='samson' />
-      </div>
+      </div> */}
    </section>
   )
 }

@@ -27,8 +27,8 @@ const [editFormIsOpen, setEditFormIsOpen] = useState(false)
 const editButton = <button onClick={() => setEditFormIsOpen(true)}></button>
 const editForm = (
     <form className='editForm' onSubmit={(e) => updateUserDetails(e)}>
-        <input type='text' id='' name='name' placeholder='Enter your name' />
-        <input type='text' id='' name='email' placeholder='Enter your email' />
+        <input type='text' id='' name='name' placeholder='Enter your name'  required /> <br />
+        <input type='text' id='' name='email' placeholder='Enter your email'  required /> <br />
         <textarea placeholder="Enter Message"></textarea>
         <br />
         <button type='button' className='cancel-button' onClick={() => setEditFormIsOpen(false)}>
@@ -41,8 +41,9 @@ const editForm = (
     <div>
         <p>{userDetails.name}</p>
         <p>{userDetails.email}</p>
-        <form className='editform'>{editForm}</form>
-        {editFormIsOpen ? editForm : editButton}
+        <form className='editform'>{editForm}
+          {editFormIsOpen ? editForm : editButton}
+        </form>
     </div>
   )
 }

@@ -1,21 +1,35 @@
 import React from 'react'
 import Socials from './Socials'
+import Image from '../assets/MyPics1.jpeg'
 
 const Nav = () => {
   return (
-    <nav>
-        <h1 className='header'>Samson Ayodele</h1>
+    <>
+    <nav className='navigation'>
+      <div className='header'>
+        <h1>Samson Ayodele</h1>
+      </div>
+
+      <div className='nav-links'>
         <ul>
-            <li><a href='#About'>About Me</a></li>
-            <li><a href='#Services'>Services</a></li>
-            <li><a href='#Projects'>Projects</a></li>
-            <li><a href='#Contact'>Contact Me</a></li>
-        </ul>
-        <div className='"nav--soc"'>
+              <li className='links'><a href='#About'>About </a></li>
+              <li className='links'><a href='#Services'>Services</a></li>
+              <li className='links'><a href='#Projects'>Projects</a></li>
+              <li className='links'><a href='#Contact'>Contact </a></li>
+          </ul>
+      </div>
+      
+      </nav>
+       
+        <div className='image'>
+          <img src={Image} alt='samson' />
+        </div>
+        <div className="nav--soc">
           <Socials />
         </div>
+      </>
         
-    </nav>
+   
   
   )
 }

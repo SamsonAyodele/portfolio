@@ -20,11 +20,12 @@
 }
 
 .header {
+  color: #000000;
   font: 'Manrope';
   font-weight: 500;
-  font-size: 3.1rem;
+  font-size: 2.1rem;
   /* line-height: 40px; */
-  letter-spacing: -1%;
+  /* letter-spacing: -1%; */
 }
 
 .nav--links {
@@ -32,10 +33,22 @@
   flex-direction: column;
 }
 
-nav {
+.navigation {
+  /* background-color: #0DC397; */
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 50px;
+  overflow: hidden;
+}
+
+.nav-links {
+  /* margin-left: 10px; */
+}
+
+.links {
+  margin-left: 30px;
 }
 
 nav ul {
@@ -45,20 +58,45 @@ nav ul {
 }
 
 li  {
- color: #000000;
- margin: 0.5rem;
- list-style-type: none;
- font: 'Manrope';
- font-weight: 400;
- font-size: 1.5rem;
- font-style: normal;
- letter-spacing: -1%;
- line-height: 20px;
+  margin: 0.2rem;
+  list-style-type: none;
+  font: 'Manrope';
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-style: normal;
+  /* letter-spacing: -1%; */
+  line-height: 20px;
 }
 
 li a {
+  color: #000000;
   text-decoration: none;
 }
+
+.image {
+  position: absolute;
+  /* display: flex; */
+  /* width: 40%; */
+  /* height: 618px; */
+  /* height: 100%; */
+  left: 63rem;
+  /* top: 163px; */
+  /* background: #D3DCF8; */
+  /* margin-right: 10px; */
+
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nav--soc {
+  position: absolute;
+  left: 87rem;
+  top: 4.5rem;
+}
+
 
 .section1 {
   display: flex;
@@ -93,15 +131,6 @@ h1 {
   color: #000000;
 }
 
-.image {
-  position: absolute;
-  display: flex;
-  width: 620px;
-  height: 618px;
-  left: 63rem;
-  top: 163px;
-  background: #D3DCF8;
-}
 
 div .social--links a {
   border: 1px solid #2351dc;
@@ -110,7 +139,7 @@ div .social--links a {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  margin: 0.2rem;
+  margin: 0.5rem;
 }
 
 .abt {
@@ -140,12 +169,12 @@ div .social--links a {
 .skills {
   padding-left: 6rem;
   width: 1440px;
-  height: 698px;
+  height: 500px;
   background: #FFFFFF;
 }
 
 .mySkill {
-  margin-top: 4rem;
+  margin-top: 10rem;
 }
 
 .stack {
@@ -195,6 +224,7 @@ div .social--links a {
 }
 
 .mainService {
+  /* margin-top: 5rem; */
   padding-left: 6rem;
   background: #fbfcfe;
 }
@@ -221,6 +251,7 @@ div .social--links a {
 }
 
 .projectDone {
+  margin-top: 0;
   padding-left: 6rem;
   background: #FBFCFE;
   height: 25rem;
@@ -304,10 +335,6 @@ button {
 .email {
   display: flex;
   align-items: center;
-}
-
-p:first-child {
-  
 }
 
 .needService {
