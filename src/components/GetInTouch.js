@@ -7,36 +7,44 @@ import ContactForm from './ContactForm'
 const GetInTouch = () => {
   return (
     <div className='connect'>
-        <div className='getintouch'>
-            <span>
+        <div className='get-in-touch'>
+            <div className='details'>
                 <h1>Get In Touch</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus. Phasellus ac nisi augue.</p>
-                <Socials />
-                <p>-xyluv</p>
-            </span>
-            <div className='email'>
-                <span message>
-                    <img src={Email} alt='mail' />
-                </span>
-                <span className='gmail'>
-                    <h6>idowusamson0777@gmail.com</h6>
-                    <p>Send a message anytime</p>
-                </span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras <br></br>  nec sollicitudin tellus. Phasellus ac nisi augue.</p>
+                <div>
+                  <Socials />
+                  {/* <span className='xyluv'>-xyluv</span> */}
+                </div>
+               
             </div>
+
             <div className='email'>
-                <span className='calling'>
+                <div className='gmail'>
+                    <img src={Email} alt='mail'/>
+                </div>
+                <div className='text'>
+                      <p className='text-bold'>idowusamson0777@gmail.com</p>
+                      <p>Send a message anytime!</p>
+                </div>      
+            </div>
+
+            <div className='email'>
+                <div className='calling'>
                     <img src={Call} alt='mail' />
-                </span>
-                <span className='num'>
-                    <h6>08032123930.</h6>
+                </div>
+                <div className='num'>
+                    <p className='text-bold'>+234-8032-123930.</p>
                     <p>Call anytime</p>
-                </span>
+                </div>
             </div>
         </div>
-        <div className='needService'>
-            <h2>Need a Service?</h2>
-            <h1>Send  A Message</h1>
-            <ContactForm />
+
+        <div className='need-service'>
+          <div className='needService'>
+              <h2>Need a Service?</h2>
+              <p>Send  A Message</p>
+              <ContactForm />
+          </div>
         </div>
     </div>
   )

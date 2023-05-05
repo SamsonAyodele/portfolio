@@ -31,17 +31,17 @@ const editForm = (
         <input type='text' id='' name='email' placeholder='Enter your email'  required /> <br />
         <textarea placeholder="Enter Message"></textarea>
         <br />
-        <button type='button' className='cancel-button' onClick={() => setEditFormIsOpen(false)}>
+        {/* <button type='button' className='cancel-button' onClick={() => setEditFormIsOpen(false)}>
             cancel
-        </button>
-        <button type='submit'>Save</button>
+        </button> */}
+        <button type='submit'>Send Message</button>
     </form>
 )
   return (
     <div>
-        <p>{userDetails.name}</p>
-        <p>{userDetails.email}</p>
-        <form className='editform'>{editForm}
+        {/* <p>{userDetails.name}</p>
+        <p>{userDetails.email}</p> */}
+        <form className='edit-form'>{editForm}
           {editFormIsOpen ? editForm : editButton}
         </form>
     </div>

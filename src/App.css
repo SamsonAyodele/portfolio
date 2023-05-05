@@ -16,7 +16,7 @@
   width: 1440px;
   height: 750px;
   padding-left: 6rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .header {
@@ -43,9 +43,9 @@
   overflow: hidden;
 }
 
-.nav-links {
-  /* margin-left: 10px; */
-}
+/* .nav-links {
+  margin-left: 10px;g
+} */
 
 .links {
   margin-left: 30px;
@@ -94,7 +94,7 @@ li a {
 .nav--soc {
   position: absolute;
   left: 87rem;
-  top: 4.5rem;
+  top: 3rem;
 }
 
 
@@ -296,53 +296,94 @@ label:hover {
 }
 
 .editForm {
-  margin: 1em 1em 0 0;
+  /* margin-top: 10px; */
+  /* margin: 1em 1em 0 0; */
 }
 
 .editForm input {
-  width: 50%;
-  height: 2em;
+  width: 100%;
+  height: 40px;
   border: 0.1em solid #dbdbdb;
   border-radius: 0.2em;
   padding: 0.5em;
-  margin-top: 0.5em;
+  margin-top: 7px;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 100%;
 }
 
 button {
-  cursor: pointer;
-  padding: unset;
-  border: unset;
-  background: unset;
-  transition: all 0.2s ease-in-out;
-  border-radius: 5px;
+  margin-top: 10px;
+  background: #FFFFFF;
+/* White */
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
 }
 
 .connect {
   display: flex;
-  justify-content: space-between;
-  margin-right: 10rem;
-  margin-top: 2rem;
   background: #FFFFFF;
-  width: 1440px;
   height: 623px;
 }
 
-.getintouch {
-  width: 400px;
+.get-in-touch {
+  margin-top: 80px;
+  width: 55%;
   margin-left: 6rem;
+}
+
+.details {
+  margin-bottom: 10px;
 }
 
 .email {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
-.needService {
+
+ .text-bold {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.need-service {
   width: 650px;
-  height: 623px;
   background: #1C41B0;
   background-position: cover;
-  padding: 3rem;
+}
+
+.need-service h2 {
+  margin-bottom: 0;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.need-service p {
+  margin-top: 0;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+.needService {
+  padding: 5rem;
 }
 
 .footer {
