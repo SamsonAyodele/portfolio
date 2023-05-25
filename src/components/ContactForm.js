@@ -42,7 +42,7 @@ const editForm = (
         {/* <p>{userDetails.name}</p>
         <p>{userDetails.email}</p> */}
         <form className='edit-form'>{editForm}
-          {editFormIsOpen ? editForm : editButton}
+          {/* {editFormIsOpen ? editForm : editButton} */}
         </form>
     </div>
   )
