@@ -142,7 +142,7 @@ div .social--links a {
   margin: 0.5rem;
 }
 
-.abt {
+#abt {
   display: flex;
   justify-content: center;
   height: 434px;
@@ -223,7 +223,7 @@ div .social--links a {
   color: #000000;
 }
 
-.mainService {
+#mainService {
   /* margin-top: 5rem; */
   padding-left: 6rem;
   background: #fbfcfe;
@@ -250,7 +250,7 @@ div .social--links a {
   color: #000000;
 }
 
-.projectDone {
+#projectDone {
   margin-top: 0;
   padding-left: 6rem;
   background: #FBFCFE;

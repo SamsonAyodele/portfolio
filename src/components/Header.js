@@ -27,13 +27,13 @@ const Header = () => {
              </span>
             <Intro />
         </div> 
-         <div className='abt'>
+         <div id='abt'>
             <About />
          </div>
          <div className='skills'>
             <Skill />
          </div>
-         <div className='mainService'>
+         <div id='mainService'>
             <Service />
             <div className='serviced'>
             <ServiceRendered Pics={Presentation} 
@@ -66,7 +66,7 @@ const Header = () => {
             /> */}
             </div>
          </div>
-         <div className='projectDone'>
+         <div id='projectDone'>
             <Projects />
             <div className='milestones'>
                <div className='milestone1'>
@@ -92,7 +92,7 @@ const Header = () => {
                </div>  
             </div>
          </div>
-         <div>
+         <div id='Contact'>
           <GetInTouch />
          </div>
          <div className='footer'>
