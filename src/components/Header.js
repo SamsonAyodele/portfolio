@@ -46,7 +46,7 @@ const Header = () => {
             />
             <ServiceRendered Pics={Responsive} 
             Title={'Responsive Web Design'}
-            SubTitle={'I Help design Mobile-friendly, worldclass websites that helps scales your bussiness and helps user experience get better.'}
+            SubTitle={'I Help design Mobile-friendly, world class websites that helps scales your business and helps user experience get better.'}
             />
              <ServiceRendered Pics={Database} 
             Title={'DataBase Management'} 
