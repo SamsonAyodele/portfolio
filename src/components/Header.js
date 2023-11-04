@@ -5,10 +5,10 @@ import About from './About';
 import Skill from './Skill';
 import Service from './Service';
 import ServiceRendered from './ServiceRendered';
-import Presentation from '../assets/presentation1.svg';
-import Consulting from '../assets/consultation1.svg';
+// import Presentation from '../assets/presentation1.svg';
+// import Consulting from '../assets/consultation1.svg';
 import Responsive from '../assets/responsive.svg'
-import Database from '../assets/server 1.svg'
+// import Database from '../assets/server 1.svg'
 import Vector from '../assets/checklist 1.svg'
 import Dev from '../assets/cloud 1.png'
 // import Writing from '../assets/notes 1.png'
@@ -36,22 +36,22 @@ const Header = () => {
          <div id='mainService'>
             <Service />
             <div className='serviced'>
-            <ServiceRendered Pics={Presentation} 
+            {/* <ServiceRendered Pics={Presentation} 
             Title={'Training'} 
             SubTitle={'I offer instructor-led training in a way that fits with the way you work.'} 
-            />
-            <ServiceRendered Pics={Consulting} 
+            /> */}
+            {/* <ServiceRendered Pics={Consulting} 
             Title={'IT Consulting'}
             SubTitle={'I offer Information technology consulting as a field of activity focused on advising organizations on how best to use information technology in achieving their business objectives.'}
-            />
+            /> */}
             <ServiceRendered Pics={Responsive} 
             Title={'Responsive Web Design'}
             SubTitle={'I Help design Mobile-friendly, world class websites that helps scales your business and helps user experience get better.'}
             />
-             <ServiceRendered Pics={Database} 
+             {/* <ServiceRendered Pics={Database} 
             Title={'DataBase Management'} 
             SubTitle={'With equipped skills of developing and maintaining databases i could  help develop scalable and optimized databases for your organization.'} 
-            />
+            /> */}
             <ServiceRendered Pics={Vector}
             Title={'Software Testing'}
             SubTitle={'I help test softwares ready for production to fish out bugs and give advice on how to make it scalable, usable and enterprise-friendly. '}

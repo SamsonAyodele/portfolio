@@ -36,7 +36,7 @@ const Skill = () => {
             </span>
             <div className='name'>
                 <label for='file'>WORDPRESS</label> <br></br>
-                <progress id="file" value="80" max="100"> 32% </progress>
+                <progress id="file" value="99" max="100"> 32% </progress>
             </div>
         </div>
     </div>
