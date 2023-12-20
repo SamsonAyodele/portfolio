@@ -27,12 +27,15 @@ const Header = () => {
              </span>
             <Intro />
         </div> 
+
          <div id='abt'>
             <About />
          </div>
+
          <div className='skills'>
             <Skill />
          </div>
+
          <div id='mainService'>
             <Service />
             <div className='serviced'>
@@ -66,6 +69,7 @@ const Header = () => {
             /> */}
             </div>
          </div>
+
          <div id='projectDone'>
             <Projects />
             <div className='milestones'>
@@ -90,11 +94,27 @@ const Header = () => {
                   Name={'Pig Game'}
                   />
                </div>  
+               <div className='milestone3'>
+               <Milestone ProjectTitle={'E-commerce'}
+                  Stack={'WordPress'}
+                  Description={'https://shopmotune.com/home/'}
+                  Name={'Shop Motune'}
+                  />
+               </div>
+               <div className='milestone3'>
+               <Milestone ProjectTitle={'Construction Website'}
+                  Stack={'WordPress'}
+                  Description={'https://kkjevo.com/'}
+                  Name={'KKjevo'}
+                  />
+               </div>
             </div>
          </div>
-         <div id='Contact'>
+
+         <div id='contact'>
           <GetInTouch />
          </div>
+
          <div className='footer'>
             <Footer />
          </div>

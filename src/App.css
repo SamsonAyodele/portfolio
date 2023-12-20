@@ -251,18 +251,21 @@ div .social--links a {
 }
 
 #projectDone {
-  margin-top: 0;
+  /* margin-top: 5rem; */
   padding-left: 6rem;
-  background: #FBFCFE;
-  height: 25rem;
+  /* background: #FBFCFE; */
+  height: 434px;
 }
 
 .milestones {
+  /* margin-top: 5rem; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: auto auto auto ; */
   grid-column-gap: 20px;
-  color: #ffffff;
-  height: 200px;
+  grid-row-gap: 20px;
+  /* color: #ffffff; */
+  height: 300px;
 }
 
 .milestone1 {
@@ -321,6 +324,10 @@ button {
   padding: 10px;
   border: 1px solid #FFFFFF;
   border-radius: 12px;
+}
+
+#contact {
+  margin: 10px 0 10px 0;
 }
 
 .connect {
