@@ -1,51 +1,53 @@
-import React from 'react'
-import { useState } from 'react'
-
-
+import React from "react";
+import { useState } from "react";
 
 const ContactForm = () => {
+  const [userDetails, setUserDetails] = useState({});
 
-    const [userDetails, setUserDetails] = useState({
-        name: 'samson',
-        email: '0777@gmail.com'
-    })
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setUserDetails((values) => ({ ...values, [name]: value }));
+  };
 
-const updateUserDetails = (event) => {
-    event.preventDefault()
-    console.log('success')
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(userDetails);
+  };
 
-    const objectData = {
-        name : 'samson',
-        email: '077@gmail.com'
-    }
-    setUserDetails(objectData)
-    setEditFormIsOpen(false)
-}
-   
-const [editFormIsOpen, setEditFormIsOpen] = useState(false)
-
-const editButton = <button onClick={() => setEditFormIsOpen(true)}></button>
-const editForm = (
-    <form className='editForm' onSubmit={(e) => updateUserDetails(e)}>
-        <input type='text' id='' name='name' placeholder='Enter your name'  required /> <br />
-        <input type='text' id='' name='email' placeholder='Enter your email'  required /> <br />
-        <textarea placeholder="Enter Message"></textarea>
-        <br />
-        {/* <button type='button' className='cancel-button' onClick={() => setEditFormIsOpen(false)}>
-            cancel
-        </button> */}
-        <button type='submit'>Send Message</button>
-    </form>
-)
   return (
     <div>
-        {/* <p>{userDetails.name}</p>
-        <p>{userDetails.email}</p> */}
-        <form className='edit-form'>{editForm}
-          {/* {editFormIsOpen ? editForm : editButton} */}
-        </form>
+      <form className="form" onSubmit={handleSubmit}>
+        <label>
+          <input
+            type="text"
+            name="fullName"
+            value={userDetails.fullName || ""}
+            placeholder="Enter your full name"
+            required
+            onChange={handleChange}
+          />
+        </label>
+        <label>
+          <input
+            type="text"
+            name="email"
+            value={userDetails.email || ""}
+            placeholder="Enter a valid email"
+            required
+            onChange={handleChange}
+          />
+        </label>
+        <textarea
+          name="textarea"
+          value={userDetails.textarea || ""}
+          onChange={handleChange}
+          placeholder="Leave a message"
+        />
+        <input type="submit" />
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default ContactForm
+export default ContactForm;

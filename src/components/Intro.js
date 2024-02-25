@@ -1,23 +1,21 @@
-import React from 'react'
-import Socials from './Socials'
-// import Image from '../assets/MyPics1.jpeg'
+import React from "react";
+import Socials from "./Socials";
 
 const Intro = () => {
   return (
-    <section className='section1'>
-    <div>
-        <h6>HI THERE</h6>
-        <h3>I'M SAMSON AYODELE</h3>
-        <h1>A Top-notch FrontEnd Developer,<br></br>Writer and Mentor.</h1>
+    <section className="hero-content">
+      <div className="hero-text">
+        <h5 className="hero-text-1">HI THERE</h5>
+        <h3 className="hero-text-2">I'M SAMSON AYODELE</h3>
+        <h1 className="intro-cont">
+          A Top-notch Developer,<br></br>Writer and Mentor.
+        </h1>
         <span className="soc">
-          <Socials  />
+          <Socials />
         </span>
-    </div>
-      {/* <div className='image'>
-        <img src={Image} alt='samson' />
-      </div> */}
-   </section>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
-export default Intro
+export default Intro;

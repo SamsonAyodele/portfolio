@@ -1,12 +1,102 @@
-import React from 'react'
+import React from "react";
+import Milestone from "./Milestone";
 
-const projects = () => {
+const Projects = () => {
   return (
-    <div className='project'>
-        <h1>Milestones of Projects</h1>
-        <p className='miles'>Here are a few  people & projects i’ve partnered and worked on.</p>
-    </div>
-  )
-}
+    <>
+      <div className="project-content">
+        <div className="cont-header">
+          <h1>Milestones of Projects</h1>
+          <p className="miles">Here are a few projects i’ve worked on.</p>
+        </div>
 
-export default projects
+        <div id="projectDone">
+          <div className="milestones">
+            <div className="milestone1">
+              <Milestone
+                ProjectTitle={"BackEnd Development"}
+                Stack={"Node/ExpressJs/MongoDb"}
+                Description={"https://kkjevo.com/"}
+                Name={"Event Ticketing"}
+              />
+              <Milestone
+                ProjectTitle={"BackEnd Development"}
+                Stack={"Node/ExpressJs/SQL"}
+                Description={"https://kkjevo.com/"}
+                Name={"Pant Store API"}
+              />
+              <Milestone
+                ProjectTitle={"BackEnd Development"}
+                Stack={"Node/ExpressJs/SQL"}
+                Description={"https://kkjevo.com/"}
+                Name={"Amox Server"}
+              />
+            </div>
+
+            <div className="milestone2">
+              <Milestone
+                ProjectTitle={"Pant-Photo"}
+                Stack={"Html, Css"}
+                Description={"https://kkjevo.com/"}
+                Name={"Pant-Photo"}
+              />
+            </div>
+
+            <div className="milestone3">
+              <Milestone
+                ProjectTitle={"Pig Game"}
+                Stack={"JavaScript"}
+                Description={"https://github.com/SamsonAyodele/PigGame"}
+                Name={"Pig Game"}
+              />
+            </div>
+
+            <div className="milestone4">
+              <Milestone
+                ProjectTitle={"E-commerce Website"}
+                Stack={"WordPress"}
+                Description={"https://shopmotune.com/home/"}
+                Name={"Shop Motune"}
+              />
+
+              <Milestone
+                ProjectTitle={"Construction Website"}
+                Stack={"WordPress"}
+                Description={"https://kkjevo.com/"}
+                Name={"KKjevo"}
+              />
+            </div>
+
+            <div className="milestone5">
+              <Milestone
+                ProjectTitle={"Digital Business Card"}
+                Stack={"ReactJs"}
+                Description={
+                  "https://github.com/SamsonAyodele/Digital-Business-Card"
+                }
+                Name={"Digital"}
+              />
+              <Milestone
+                ProjectTitle={"Tenzie Game"}
+                Stack={"ReactJs"}
+                Description={"https://github.com/SamsonAyodele/TenzieReactGame"}
+                Name={"Tenzie Game"}
+              />
+            </div>
+
+            <div className="milestone6">
+              <Milestone
+                ProjectTitle={"Construction Website"}
+                Stack={"WordPress"}
+                Description={"https://kkjevo.com/"}
+                Name={"KKjevo"}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Projects;
