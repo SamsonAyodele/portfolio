@@ -13,6 +13,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(userDetails);
+    setUserDetails("");
   };
 
   return (

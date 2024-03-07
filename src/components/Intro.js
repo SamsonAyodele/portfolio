@@ -7,9 +7,7 @@ const Intro = () => {
       <div className="hero-text">
         <h5 className="hero-text-1">HI THERE</h5>
         <h3 className="hero-text-2">I'M SAMSON AYODELE</h3>
-        <h1 className="intro-cont">
-          A Top-notch Developer,<br></br>Writer and Mentor.
-        </h1>
+        <h1 className="intro-cont">A Top-notch Developer,Writer and Mentor.</h1>
         <span className="soc">
           <Socials />
         </span>

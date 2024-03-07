@@ -1,0 +1,184 @@
+/* MEDIA QUERIES */
+ @media (max-width: 1440px){
+    .hamburger{
+      display: none;
+    }
+  }
+  @media (max-width: 1024px){
+    .nav-section{
+      width: 100vw;
+    }
+    .img-section{
+      display: none;
+    }
+    .navigation {
+      gap: 10rem;
+    }
+    .hero-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero-text{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .intro-cont{
+      padding: 0rem 5rem;
+      margin-bottom: 1rem;
+    }
+    .serviced {
+      grid-template-columns: auto auto;
+    }
+    .detail{
+      padding: 3rem 4rem;
+    }
+    .hamburger{
+      display: none;
+    }
+  }
+  @media (max-width: 688px){
+    .header-section{
+      padding: 0rem 0rem 0rem 2rem;
+    }
+    .navigation {
+      justify-content: space-between;
+    }
+    .nav-links{
+      display: none;
+    }
+    .serviced {
+      grid-template-columns: auto;
+    }
+    .content{
+      padding-left: 1rem;
+      font-size: 1rem;
+      font-weight: 200;
+    }
+    .cont{
+      width: 418px;
+      height: 126px;
+    }
+    .detail{
+      padding: 3rem 0rem;
+    }
+    .hamburger{
+      display: block;
+      padding-right: 2rem;
+    }
+    .skill-stack{
+      grid-template-columns: auto;
+    }
+    .get-in-touch {
+      padding-left:2rem;
+    }
+    .contact-form {
+      padding:5rem 2rem;
+    }
+    #project{
+      padding: 2rem 0rem;
+    }
+    .project-content{
+      padding: 0 2rem;
+    }
+  }
+  @media (max-width: 450px){
+    .header-section{
+      height: 500px;
+    }
+    .logo-text{
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    .intro-cont{
+      padding: 0rem;
+    }
+    .hamburger{
+      padding-right: 1rem;
+    }
+    .skill-stack{
+      grid-template-columns: auto;
+    }
+    .hero-text{
+      gap: .1rem; 
+    }
+    .skills {
+      padding:0 .1rem;
+    }
+    .my-skill{
+      margin-top: 3rem;
+      padding-left: 1rem;
+    }
+    .skill-logo{
+      width: 40px;
+      height: 40px;
+    }
+    .skill-name{
+      font-size: 1.5rem;
+    }
+    .hero-text-1{
+      font-size: 15px;
+    }
+    .hero-text-2{
+      font-size: 20px;
+    }
+    .intro-cont{
+      font-size: 2rem;
+    }
+    .abt-paragraph{
+      padding: 0 2rem;
+    }
+    .abt-text{
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    #mainService {
+      padding:1rem;
+    }
+    .service-cont{
+      padding: 3rem 0;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .serviced {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .skill-subHead{
+      width: 400px;
+    }
+    .project-content{
+      padding: 0 2rem;
+    }
+    .milestones{
+      display: block;
+    }
+    .mile{
+      height: 100%;
+    }
+    #project{
+      padding: 2rem 0;
+    }
+    .testimonial{
+      display: none;
+    }
+    .get-in-touch {
+      padding:2rem 2rem;
+      width: 100%;
+    }
+    .contact-section {
+      width: 100%;
+    }
+    .connect {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 400px){
+
+  }

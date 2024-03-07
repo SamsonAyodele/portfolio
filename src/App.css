@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +11,7 @@
 .navigation {
   display: flex;
   align-items: center;
-  gap: 10rem;
+  gap: 5rem;
   padding-top: 2rem;
 }
 
@@ -28,6 +31,10 @@ li a {
   color: #000000;
   text-decoration: none;
 } 
+
+.hamburger{
+  display: none;
+}
 
 /* .nav-soc{
  
@@ -78,8 +85,6 @@ li a {
 
 .skills {
   padding-left: 6rem;
-  /* width: 1440px;
-  height: 500px; */
   background: #FFFFFF;
 }
 
@@ -90,12 +95,12 @@ li a {
 }
 
 #project{
-  padding: 5rem 0;
+  padding: 5rem 0rem;
   background: #FBFCFE;
 }
 
 #contact{
-  height: 623px;
+  height: 100%px;
 }
 
 
@@ -142,8 +147,7 @@ li a {
 .intro-cont{
   font-family: Manrope;
   font-weight: 800;
-  line-height: 72px;
-  letter-spacing: -0.03em;
+  padding-right: 10rem;
   color: #000000;
   font-size: 3rem;
 }
@@ -262,7 +266,7 @@ div .social--links {
   width: 467px;
   height: 54px;
   color: #000000;
-  padding-right: 3rem;
+  /* padding-right: 3rem; */
 }
 
 .serviced {
@@ -289,10 +293,6 @@ div .social--links {
 .cont-header{
   margin-bottom: 2.5rem;
   }
-  
-/* #projectDone {
- 
-} */
 
 .milestones {
   display: grid;
@@ -424,7 +424,7 @@ a.mile {
 /* GET-IN-TOUCH JS */
 .connect {
   display: flex;
-  height: 623px;
+  /* height: 623px; */
 }
 
 .get-in-touch {
@@ -518,6 +518,11 @@ textarea{
   color: #FFFFFF;
 }
 
+.footer-section{
+  height: 300px;
+  background: #07102C;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -525,9 +530,11 @@ textarea{
   justify-content: center;
   gap: 1.5rem;
   text-align: center;
-  height: 300px;
-  background: #07102C;
   color: #fff;
-  padding-top: .1rem;
+  padding-top: 5rem;
 }
+
+
+
+
 

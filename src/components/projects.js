@@ -12,7 +12,7 @@ const Projects = () => {
 
         <div id="projectDone">
           <div className="milestones">
-            <div className="milestone1">
+            <div className="milestone1 mile">
               <Milestone
                 ProjectTitle={"BackEnd Development"}
                 Stack={"Node/ExpressJs/MongoDb"}
@@ -33,7 +33,7 @@ const Projects = () => {
               />
             </div>
 
-            <div className="milestone2">
+            <div className="milestone2 mile">
               <Milestone
                 ProjectTitle={"Pant-Photo"}
                 Stack={"Html, Css"}
@@ -42,7 +42,7 @@ const Projects = () => {
               />
             </div>
 
-            <div className="milestone3">
+            <div className="milestone3 mile">
               <Milestone
                 ProjectTitle={"Pig Game"}
                 Stack={"JavaScript"}
@@ -51,7 +51,7 @@ const Projects = () => {
               />
             </div>
 
-            <div className="milestone4">
+            <div className="milestone4 mile">
               <Milestone
                 ProjectTitle={"E-commerce Website"}
                 Stack={"WordPress"}
@@ -67,7 +67,7 @@ const Projects = () => {
               />
             </div>
 
-            <div className="milestone5">
+            <div className="milestone5 mile">
               <Milestone
                 ProjectTitle={"Digital Business Card"}
                 Stack={"ReactJs"}
@@ -84,7 +84,7 @@ const Projects = () => {
               />
             </div>
 
-            <div className="milestone6">
+            <div className="milestone6 mile">
               <Milestone
                 ProjectTitle={"Construction Website"}
                 Stack={"WordPress"}

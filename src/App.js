@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Media.css";
 import Header from "./components/Header";
 
 const App = () => {

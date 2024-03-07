@@ -54,7 +54,7 @@ const Header = () => {
         <GetInTouch />
       </div>
 
-      <div className="footer">
+      <div className="footer-section">
         <Footer />
       </div>
     </>

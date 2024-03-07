@@ -15,7 +15,7 @@ const Service = () => {
         <h1>Services I Render</h1>
         <p className="skill-subHead">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec
-          sollicitudin tellus. Phasellus ac nisi augue.
+          sollicitudin tellus. Phasellus.
         </p>
       </header>
 
