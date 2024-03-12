@@ -148,9 +148,13 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      /* padding: 0 4rem; */
     }
     .skill-subHead{
-      width: 400px;
+      text-align: center;
+      align-items: center;
+      padding: 0 1.5rem;
+      margin-bottom: 1rem;
     }
     .project-content{
       padding: 0 2rem;
@@ -180,5 +184,17 @@
   }
 
   @media (max-width: 400px){
-
+    .header-section{
+      padding:0 1rem;
+    }
+    .navigation {
+      gap: 3rem;
+    }
+    .abt-paragraph{
+      padding: 0 4rem;
+      margin-bottom: 2.5rem;
+    }
+    .skill-name{
+      font-size: 1.2rem;
+    }
   }
