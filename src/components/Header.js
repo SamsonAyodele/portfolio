@@ -10,54 +10,57 @@ import Photo from "./Photo";
 import Projects from "./Projects";
 import Testimonial from "./Testimonial";
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <>
+    <div className={props.darkMode ? "" : "dark"}>
       <div className="header-section">
         <div className="nav-section">
           <div className="nav--links">
-            <Nav />
+            <Nav
+              darkMode={props.darkMode}
+              toggleDarkMode={props.toggleDarkMode}
+            />
           </div>
 
           <div className="hero-section">
-            <Intro />
+            <Intro darkMode={props.darkMode} />
           </div>
         </div>
         <div className="img-section">
           <div className="img">
-            <Photo />
+            <Photo darkMode={props.darkMode} />
           </div>
         </div>
       </div>
 
       <div id="about-section">
-        <About />
+        <About darkMode={props.darkMode} />
       </div>
 
       <div className="skills">
-        <Skill />
+        <Skill darkMode={props.darkMode} />
       </div>
 
       <div id="mainService">
-        <Service />
+        <Service darkMode={props.darkMode} />
       </div>
 
       <div id="project">
-        <Projects />
+        <Projects darkMode={props.darkMode} />
       </div>
 
       <div className="testimonials">
-        <Testimonial />
+        <Testimonial darkMode={props.darkMode} />
       </div>
 
       <div id="contact">
-        <GetInTouch />
+        <GetInTouch darkMode={props.darkMode} />
       </div>
 
       <div className="footer-section">
-        <Footer />
+        <Footer darkMode={props.darkMode} />
       </div>
-    </>
+    </div>
   );
 };
 

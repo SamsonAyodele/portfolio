@@ -1,9 +1,9 @@
 import React from "react";
 // import Socials from "./Socials";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
-    <>
+    <div className={props.darkMode ? "" : "dark"}>
       <nav className="navigation">
         <div className="logo-text">
           <h1>Samson Ayodele</h1>
@@ -26,6 +26,16 @@ const Nav = () => {
           </ul>
         </div>
 
+        <div className="toggler">
+          <p className="toggler--light">Light</p>
+
+          <div className="toggler--slider" onClick={props.toggleDarkMode}>
+            <div className="toggler--slider--circle"></div>
+          </div>
+
+          <p className="toggler--dark">Dark</p>
+        </div>
+
         <div class="hamburger">
           <svg
             width="18"
@@ -44,7 +54,7 @@ const Nav = () => {
           </svg>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
