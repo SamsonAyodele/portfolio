@@ -4,6 +4,37 @@
       display: none;
     }
   }
+
+  @media (max-width: 1300px) {
+    .navigation {
+      gap: 4rem;
+    }
+    nav ul {
+      gap: 1rem;
+    }
+    #mainService {
+      padding-right: 2rem;
+    }
+  }
+
+  @media (max-width: 1200px){
+    .logo-text{
+      /* font-weight: 200; */
+      font-size: 1.2rem;
+    }
+    .navigation {
+      gap: 2rem;
+    }
+  
+    .header-section,.skills,#mainService{
+      padding-left: 3rem;
+    }
+    .intro-cont{
+      font-size: 2rem;
+    }
+    
+  }
+
   @media (max-width: 1024px){
     .nav-section{
       width: 100vw;
@@ -40,6 +71,31 @@
       display: none;
     }
   }
+
+  @media (max-width: 890px){
+    .navigation {
+      gap: 8rem;
+    }
+    .header-section,.skills,#mainService{
+      padding-left: 4rem;
+    }
+    .hero-text{
+      margin-top: 3rem;
+      align-items: center;
+      padding-right: 2.5rem;
+    }
+  }
+
+  @media (max-width: 850px){
+    .skills{
+      padding-left: 2rem;
+    }
+    .stack{
+      flex-direction: column;
+    }
+  }
+
+
   @media (max-width: 688px){
     .header-section{
       padding: 0rem 0rem 0rem 2rem;
@@ -84,29 +140,24 @@
     .project-content{
       padding: 0 2rem;
     }
+    .toggler{
+      display: none;
+    }
   }
-  @media (max-width: 450px){
+
+  
+ @media (max-width: 450px){
     .header-section{
       height: 500px;
-    }
-    .logo-text{
-      font-weight: 500;
-      font-size: 1rem;
     }
     .intro-cont{
       padding: 0rem;
     }
     .hamburger{
-      padding-right: 1rem;
-    }
-    .skill-stack{
-      grid-template-columns: auto;
+      padding-right: 2rem;
     }
     .hero-text{
       gap: .1rem; 
-    }
-    .skills {
-      padding:0 .1rem;
     }
     .my-skill{
       margin-top: 3rem;
@@ -119,27 +170,14 @@
     .skill-name{
       font-size: 1.5rem;
     }
-    .hero-text-1{
-      font-size: 15px;
-    }
-    .hero-text-2{
-      font-size: 20px;
-    }
-    .intro-cont{
-      font-size: 2rem;
-    }
     .abt-paragraph{
-      padding: 0 2rem;
-    }
-    .abt-text{
-      font-size: 2rem;
-      font-weight: 700;
+      padding: 0 3rem;
     }
     #mainService {
-      padding:1rem;
+      padding:1rem 1.5rem;
     }
     .service-cont{
-      padding: 3rem 0;
+      padding: 2rem;
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -148,12 +186,11 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      /* padding: 0 4rem; */
     }
     .skill-subHead{
       text-align: center;
       align-items: center;
-      padding: 0 1.5rem;
+      /* padding: 0 1.5rem; */
       margin-bottom: 1rem;
     }
     .project-content{
@@ -181,11 +218,33 @@
     .connect {
       flex-direction: column;
     }
-  }
+    /* #about-section{
+      width: 100%;
+    } */
+  }  
 
-  @media (max-width: 400px){
+ @media (max-width: 400px){
     .header-section{
-      padding:0 1rem;
+      /* padding:0 1rem; */
+      /* background-color: blue; */
+    }
+    #about-section{
+      /* background-color: black; */
+    }
+    #mainService{
+      /* background-color: blueviolet; */
+    }
+    #project{
+      /* background-color: cadetblue; */
+    }
+    .testimonials{
+      /* background-color: aquamarine; */
+    }
+    #contact{
+      /* background-color: black; */
+    }
+    .footer-section{
+      /* background-color: burlywood; */
     }
     .navigation {
       gap: 3rem;
@@ -197,4 +256,39 @@
     .skill-name{
       font-size: 1.2rem;
     }
-  }
+  } 
+
+  /* @media (max-width: 400px){
+    .header-section{
+      padding:0 1rem;
+      background-color: blue;
+    }
+    #about-section{
+      background-color: black;
+    }
+    #mainService{
+      background-color: blueviolet;
+    }
+    #project{
+      background-color: cadetblue;
+    }
+    .testimonials{
+      background-color: aquamarine;
+    }
+    #contact{
+      background-color: black;
+    }
+    .footer-section{
+      background-color: burlywood;
+    }
+    .navigation {
+      gap: 3rem;
+    }
+    .abt-paragraph{
+      padding: 0 4rem;
+      margin-bottom: 2.5rem;
+    }
+    .skill-name{
+      font-size: 1.2rem;
+    }
+  } */
