@@ -44,7 +44,7 @@ li a {
 .logo-text{
   font-family: 'Manrope';
   font-weight: 800;
-  /* font-size: 1.875rem; */
+  /* font-size: 1.5rem; */
   font-size: clamp(1rem, 5vw, 1.8rem);
   color: #000000;
 }
@@ -59,7 +59,7 @@ li a {
 .nav-section{
   display: flex;
   flex-direction: column;
-  /* width: 60%; */
+  width: 60%;
   /* background-color: #2351DC; */
 }
 
@@ -130,7 +130,7 @@ li a {
 
 .img-section{
   background-color:rgb(211,220,248);
-  /* width: 40%; */
+  width: 40%;
 }
 
 #about-section{
@@ -183,8 +183,8 @@ li a {
 
 .hero-text-1{
   font-family: Manrope;
-  /* font-size: 18px; */
-  font-size: clamp(1rem, 5vw, 1.2rem);
+  font-size: 18px;
+  /* font-size: clamp(1rem, 5vw, 1.2rem); */
   font-weight: 300;
   line-height: 25px;
   letter-spacing: 0.03em;
@@ -193,8 +193,8 @@ li a {
 
 .hero-text-2{
   font-family: Manrope;
-  /* font-size: 24px; */
-  font-size: clamp(1rem, 5vw, 1.5rem);
+  font-size: 20px;
+  /* font-size: clamp(1rem, 5vw, 1.5rem); */
   font-weight: 700;
   line-height: 33px;
   letter-spacing: 0.03em;

@@ -16,10 +16,7 @@ const Header = (props) => {
       <div className="header-section">
         <div className="nav-section">
           <div className="nav--links">
-            <Nav
-              darkMode={props.darkMode}
-              toggleDarkMode={props.toggleDarkMode}
-            />
+            <Nav darkMode={props.darkMode} toggleDarkMode={props.toggleDarkMode} />
           </div>
 
           <div className="hero-section">
