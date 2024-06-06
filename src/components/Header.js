@@ -7,7 +7,7 @@ import Service from "./Service";
 import GetInTouch from "./GetInTouch";
 import Footer from "./Footer";
 import Photo from "./Photo";
-import Projects from "./Projects";
+import Projects from "./projects";
 import Testimonial from "./Testimonial";
 
 const Header = (props) => {

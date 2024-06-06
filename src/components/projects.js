@@ -16,19 +16,19 @@ const Projects = () => {
               <Milestone
                 ProjectTitle={"BackEnd Development"}
                 Stack={"Node/ExpressJs/MongoDb"}
-                Description={"https://kkjevo.com/"}
+                Description={"https://github.com/SamsonAyodele/Event-ticketting"}
                 Name={"Event Ticketing"}
               />
               <Milestone
                 ProjectTitle={"BackEnd Development"}
                 Stack={"Node/ExpressJs/SQL"}
-                Description={"https://kkjevo.com/"}
+                Description={"https://github.com/SamsonAyodele/PantheraApi"}
                 Name={"Pant Store API"}
               />
               <Milestone
                 ProjectTitle={"BackEnd Development"}
                 Stack={"Node/ExpressJs/SQL"}
-                Description={"https://kkjevo.com/"}
+                Description={"https://github.com/SamsonAyodele/amox-server"}
                 Name={"Amox Server"}
               />
             </div>
@@ -37,7 +37,7 @@ const Projects = () => {
               <Milestone
                 ProjectTitle={"Pant-Photo"}
                 Stack={"Html, Css"}
-                Description={"https://kkjevo.com/"}
+                Description={"https://github.com/SamsonAyodele/pantPhoto"}
                 Name={"Pant-Photo"}
               />
             </div>
